@@ -13,6 +13,6 @@ public class SecendPlayer : MonoBehaviour
     }
 
     void FixedUpdate() {
-        rb.MovePosition(rb.position - movement * Speed * Time.fixedDeltaTime);
+        rb.MovePosition(rb.position + movement * Speed * Time.fixedDeltaTime);
     }
 }
