@@ -8,7 +8,7 @@ public class Movemeny : MonoBehaviour
     public float Speed = 10;
     public Rigidbody2D rb;
     Vector2 movement;
-    public int Number1 = 0;
+    public int Number1 = 1;
 
     void Update() {
         movement.y = Input.GetAxisRaw("Vertical");
